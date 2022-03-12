@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Casino task generator - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Casino task generator.res" /d "NDEBUG" /d "_AFXDLL" "H:\Projects\Casino task generator\Casino task generator.rc"" 
+Creating temporary file "C:\DOCUME~1\lazutin\LOCALS~1\Temp\RSP8A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Casino task generator.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Projects\Casino task generator\Casino task generator.cpp"
+"H:\Projects\Casino task generator\Casino task generatorDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lazutin\LOCALS~1\Temp\RSP8A.tmp" 
+Creating temporary file "C:\DOCUME~1\lazutin\LOCALS~1\Temp\RSP8B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Casino task generator.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Projects\Casino task generator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lazutin\LOCALS~1\Temp\RSP8B.tmp" 
+Creating temporary file "C:\DOCUME~1\lazutin\LOCALS~1\Temp\RSP8C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Casino task generator.pdb" /machine:I386 /out:"Release/Casino task generator.exe" 
+".\Release\Casino task generator.obj"
+".\Release\Casino task generatorDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Casino task generator.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\lazutin\LOCALS~1\Temp\RSP8C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Casino task generator.cpp
+Casino task generatorDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Casino task generator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

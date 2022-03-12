@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Casino tests - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Casino tests.res" /d "NDEBUG" /d "_AFXDLL" "C:\home\lazutin\prj\Casino tests\Casino tests.rc"" 
+Creating temporary file "C:\home\lazutin\tmp\RSP154.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Casino tests.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\home\lazutin\prj\Casino tests\Casino tests.cpp"
+"C:\home\lazutin\prj\Casino tests\DlgSettings.cpp"
+"C:\home\lazutin\prj\Casino tests\DlgTime.cpp"
+"C:\home\lazutin\prj\Casino tests\DlgMain.cpp"
+]
+Creating command line "cl.exe @C:\home\lazutin\tmp\RSP154.tmp" 
+Creating temporary file "C:\home\lazutin\tmp\RSP155.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Casino tests.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\home\lazutin\prj\Casino tests\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\home\lazutin\tmp\RSP155.tmp" 
+Creating temporary file "C:\home\lazutin\tmp\RSP156.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Casino tests.pdb" /machine:I386 /out:"Release/Casino tests.exe" 
+".\Release\Casino tests.obj"
+".\Release\DlgSettings.obj"
+".\Release\DlgTime.obj"
+".\Release\StdAfx.obj"
+".\Release\Casino tests.res"
+".\Release\DlgMain.obj"
+]
+Creating command line "link.exe @C:\home\lazutin\tmp\RSP156.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Casino tests.cpp
+DlgSettings.cpp
+DlgTime.cpp
+DlgMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Casino tests.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
